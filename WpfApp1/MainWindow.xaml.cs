@@ -47,7 +47,7 @@ namespace WpfApp1
         }
         private void pnlMainGrid_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            MessageBox.Show("You clicked me at abcd " + e.GetPosition(this).ToString());
+            MessageBox.Show("You clicked me at abcde " + e.GetPosition(this).ToString());
         }
     }
 }
